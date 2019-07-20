@@ -4,6 +4,7 @@ import com.mg.restData.Greetings
 import com.mg.restData.Product
 import com.mg.restData.Products
 import org.springframework.web.bind.annotation.*
+import javax.annotation.security.RolesAllowed
 import javax.xml.ws.WebServiceClient
 
 @RestController
