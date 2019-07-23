@@ -15,7 +15,7 @@ class TestRestHeaders {
 
     @Test
     fun testMyRestAPI(){
-        var url: URL = URL("http://localhost:8080/getProducts/3");
+        var url: URL = URL("http://localhost:9090/getProducts/3");
         var conn =  url.openConnection()
         conn.setRequestProperty("method", "POST")
         conn.setRequestProperty("Accept", "application/json")

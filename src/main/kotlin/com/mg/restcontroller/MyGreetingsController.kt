@@ -25,7 +25,7 @@ class MyGreetingsController {
             : Product {
         if(header.equals("ABC")) {
             Products.makeList()
-            return Products.myList.stream().filter{product -> product.productId == id}.findFirst().get()
+            return Products.myList.stream().filter{product : Product -> product.productId == id}.findFirst().get()
         }
         return Product(0, "This is an invalid product", productPrice = 0)
     }
