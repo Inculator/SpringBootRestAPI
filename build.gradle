@@ -29,5 +29,6 @@ dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version" // Required for Kotlin integration
     compile "org.springframework.boot:spring-boot-starter-web"
     testCompile('org.springframework.boot:spring-boot-starter-test')
+    compile "org.apache.activemq:activemq-all:5.6.0"
     testImplementation('org.junit.jupiter:junit-jupiter-api:5.4.2')
 }
